@@ -1,0 +1,32 @@
+{
+  "name": "gulp-dynamo",
+  "version": "0.1.0",
+  "description": "Helps you generate your gulp.js file, so you can concentrate on building awesome apps",
+  "main": "lib/app",
+  "bin": "bin/gulp-dynamo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcarlsen/gulp-dynamo.git"
+  },
+  "keywords": [
+    "dynamo",
+    "gulp",
+    "gulp.js",
+    "file",
+    "generator"
+  ],
+  "author": "tcarlsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcarlsen/gulp-dynamo/issues"
+  },
+  "homepage": "https://github.com/tcarlsen/gulp-dynamo",
+  "dependencies": {
+    "prompt": "~0.2.12",
+    "colors": "~0.6.2",
+    "async": "~0.2.10"
+  }
+}

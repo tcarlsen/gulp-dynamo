@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo 'export NODE_PATH="'$(npm root -g)'"' >> ~/.bash_profile && . ~/.bash_profile
+
+node $NODE_PATH/gulp-dynamo $1 $2
