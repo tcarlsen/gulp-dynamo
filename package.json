@@ -14,6 +14,7 @@
   "keywords": [
     "dynamo",
     "gulp",
+    "gulpplugin",
     "gulp.js",
     "file",
     "generator"
